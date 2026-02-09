@@ -25,8 +25,8 @@ export default function FinalMessage() {
 
       <div style={{ marginTop: 16 }}>
         <img
-          src="/love.png"
-          alt="love"
+          <img src={`${import.meta.env.BASE_URL}love.png`}
+          alt="love"/>
           style={{
             width: "min(360px, 85vw)",
             borderRadius: 22,
