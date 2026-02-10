@@ -61,7 +61,7 @@ export default function App() {
           <div className="card pop">
             <div className="kicker">💌 Private Entry</div>
 
-            <h1 className="title">Welcome to the Love of Shreya 💖</h1>
+            <h1 className="title">Welcome to a Page Written with Love 💖</h1>
 
             <p className="text">
               Are you the one destiny picked as Shreya’s life partner?
