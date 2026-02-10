@@ -29,11 +29,12 @@ export default function Questions({ onFinish }: Props) {
         placeholder: "Type your answer…",
       },
       {
-        prompt: "Q2) What food does Shreya love to eat? (hint: japanese)",
+        prompt: "Q2) What food does Shreya love to eat?",
         answers: [
           "Chicken Katsu Donburi",
           "katsu donburi",
           "katsu don",
+          "Chicken Katsu",
         ],
         placeholder: "Type the dish name…",
         hint: "Japanese 😌",
