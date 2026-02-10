@@ -97,6 +97,19 @@ export default function App() {
 
         {screen === "final" && <FinalMessage />}
       </div>
+      <footer className="footer">
+      <p className="footer-title">
+      Made by <strong>Kawaii_Shreya</strong>
+      </p>
+      <p className="footer-sub">
+        Free for Anyone to use ✨
+      </p>
+        <div className="footer-links">
+        <span>Telegram: <strong>Kawaii_shreya</strong></span>
+        <span>Discord: <strong>Kawaiishreya</strong></span>
+        <span>Email: <strong>shrya2205@gmail.com</strong></span>
+        </div>
+      </footer>
     </div>
   );
 }
