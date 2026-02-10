@@ -73,7 +73,7 @@ export default function ReportCard({ onDone }: Props) {
     if (!allDone) return;
     const t = window.setTimeout(() => {
       onDone?.();
-    }, 900);
+    }, 30_000);
     return () => window.clearTimeout(t);
   }, [allDone, onDone]);
 

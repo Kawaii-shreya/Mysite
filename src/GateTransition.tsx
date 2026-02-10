@@ -14,7 +14,6 @@ export default function GateTransition({ open, durationMs = 900, onDone }: Props
       setVisible(true);
       const t = setTimeout(() => {
         onDone?.();
-        // keep it hidden after done
         setVisible(false);
       }, durationMs);
       return () => clearTimeout(t);

@@ -272,9 +272,7 @@ body {
 .gateOverlay.open .gateText {
   opacity: 1;
 }
-/* =========================
-   REPORT CARD STYLES
-========================= */
+
 .statsGrid {
   display: grid;
   gap: 12px;
