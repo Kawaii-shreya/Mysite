@@ -24,7 +24,6 @@ export default function FinalMessage() {
       </p>
 
       <div style={{ marginTop: 16 }}>
-        <img
           <img src={`${import.meta.env.BASE_URL}love.png`}
           alt="love"/>
           style={{
